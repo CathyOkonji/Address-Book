@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Address Book</title>
+</head>
+
+<body>
+ <h1 class="header">PHONE BOOK</h1> 
+ <div class="new-contact"><h2> Create new contact </h2></div>
+  <div id="new-contact-form">
+    <form name="contactForm">
+      <div class="inputFields">
+       Name
+        <input type="text" name="name" id="name" placeholder="Name">
+        
+       Email:
+        <input type="text" name="email" id="email" placeholder="Email"> 
+           
+       Phone Number:
+       <input  type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number"> 
+          
+      </div> 
+       <input id='addContact' type="submit" name="addContactBtn" value="Add now!">
+    
+   </form>
+  </div>
+  
+  <div id="contacts">
+    <h3>Contact List</h3>
+    <ul id="contactList">
+      <!-- <li>
+        <h4 class="contactTitle">Catherine</h4>
+        <div class="contactDetails">
+          <p>cath_Oko@gmail.com</p>
+          <p>07082133588</p>
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </div>''
+      </li>
+      <li>
+        <h4 class="contactTitle">Peter</h4>
+        <div class="contactDetails">
+          <p>Peter100@gmail.com</p>
+          <p>07082133588</p>
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </div>
+      </li> -->
+    </ul>
+  </div>
+
+    <footer>By <a class="link" href="https://twitter.com/Catty_xo" target="_blank">The Kitkat</a>🍫</footer>
+    <script src="addressbook.js"></script>
+</body>
+</html>
